@@ -80,14 +80,13 @@ Outside of RE, y4seen is a known **OSINT practitioner** and a capable **side cod
 
 **`› Decompiling Compiled Binaries — Any Language, Any Runtime`**
 
-My primary skill. I decompile compiled executables and bytecode back to readable logic — regardless of what language they were originally written in. .NET assemblies, Java bytecode, native C/C++ binaries, Electron apps, compiled Python — each has a path back to readable code, and I know all of them.
+My primary skill. I decompile compiled executables and bytecode back to readable logic — regardless of what language they were originally written in. .NET assemblies, Java bytecode, native C/C++ binaries, Electron apps — each has a path back to readable code, and I know all of them.
 
 ```
 Language / Runtime → Decompilation Path:
 
   .NET (C#, VB)      →  dnSpy / ILSpy / dotPeek     → full C# source recovery
   Java / Kotlin      →  jadx / Procyon / CFR          → Java class reconstruction
-  Python compiled    →  pycdc / uncompyle6 / decompile → .pyc → readable .py
   Native (C / C++)   →  Ghidra / x64dbg / Binary Ninja → pseudocode + ASM
   Electron / Node    →  asar extract → JS deobfuscation → full app logic
   Lua bytecode       →  unluac / luadec               → readable Lua source
@@ -257,7 +256,6 @@ I build the tools I need. When existing tooling doesn't fit the job, I write it 
 | **.NET RE** | dnSpy · ILSpy · dotPeek · de4dot |
 | **Java / JVM RE** | jadx · Procyon · CFR · JD-GUI |
 | **Native Binary** | Ghidra · x64dbg · Binary Ninja · Detect-It-Easy |
-| **Python Bytecode** | pycdc · uncompyle6 |
 | **JS Deobfuscation** | de4js · AST Explorer · Prettier · Chrome DevTools |
 | **Traffic Analysis** | Burp Suite · Wireshark · mitmproxy · Fiddler |
 | **OSINT** | amass · shodan · subfinder · maigret · holehe |
