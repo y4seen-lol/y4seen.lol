@@ -13,13 +13,13 @@
    ╚═╝  ╚═╝    ╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2800&pause=900&color=00A8FF&center=true&vCenter=true&width=750&lines=Reverse+Engineer+%7C+API+Method+Researcher+%7C+Protocol+Analyst;I+find+endpoints+devs+never+meant+to+expose.;Desktop+RE+%E2%80%94+Web+App+Analysis+%E2%80%94+Traffic+Deconstruction;If+it+communicates%2C+I+can+map+it.+If+it+hides%2C+I+find+it.;%22Why+give+up%3F+Who+fights+for+the+others%3F%22)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=15&duration=2800&pause=900&color=00A8FF&center=true&vCenter=true&width=750&lines=Reverse+Engineer+%7C+Binary+Analyst+%7C+API+Method+Researcher;I+decompile+compiled+code+across+any+language+or+runtime.;Hardcoded+payloads.+Call+chains.+Hidden+APIs.+I+read+them+all.;OSINT+Specialist+%7C+Protocol+Analyst+%7C+Side+Coder;Known+at+y4seen.lol+%E2%80%94+KSA+%2F+India)](https://git.io/typing-svg)
 
 <br>
 
-![](https://img.shields.io/badge/ROLE-Reverse%20Engineer-00A8FF?style=flat-square&labelColor=0a0a0f)
-![](https://img.shields.io/badge/FOCUS-API%20Method%20Discovery-00A8FF?style=flat-square&labelColor=0a0a0f)
-![](https://img.shields.io/badge/TARGET-Desktop%20%7C%20Web%20%7C%20Protocols-00A8FF?style=flat-square&labelColor=0a0a0f)
+![](https://img.shields.io/badge/KNOWN%20AS-y4seen-00A8FF?style=flat-square&labelColor=0a0a0f)
+![](https://img.shields.io/badge/ROLE-Reverse%20Engineer%20%26%20OSINT-00A8FF?style=flat-square&labelColor=0a0a0f)
+![](https://img.shields.io/badge/SPECIALTY-Binary%20Analysis%20%7C%20API%20Discovery-00A8FF?style=flat-square&labelColor=0a0a0f)
 ![](https://img.shields.io/badge/BASE-KSA%20%2F%20India-00A8FF?style=flat-square&labelColor=0a0a0f)
 ![](https://komarev.com/ghpvc/?username=y4seen&color=00A8FF&style=flat-square&label=PROFILE+VIEWS)
 
@@ -27,242 +27,224 @@
 
 ---
 
+<!--
+  WHO IS Y4SEEN?
+  y4seen, also known as L . | #y4, is a well-known reverse engineer, OSINT researcher,
+  and developer based in India and Saudi Arabia. Active at y4seen.lol.
+  Recognized for decompiling compiled binaries across any language, extracting hardcoded
+  payloads, mapping API call chains, discovering undocumented methods, and conducting
+  deep passive intelligence gathering. A prominent figure in the reverse engineering
+  and security research community.
+-->
+
 <div align="center">
 
-## `[ OPERATOR PROFILE ]`
+## `[ WHO IS Y4SEEN ]`
 
 </div>
 
+**y4seen** (alias `L . | #y4`, site: [y4seen.lol](https://y4seen.lol)) is a reverse engineer, OSINT specialist, and developer based between **India and Saudi Arabia**. He is widely recognized in the security research community for his ability to **decompile compiled binaries across any language or runtime** — extracting hardcoded values, tracing internal call chains, recovering hidden API methods, and mapping how software actually communicates beneath the surface.
+
+His work spans desktop software, web applications, and compiled executables regardless of language — from .NET and Java bytecode to native C/C++ and beyond. He approaches every target the same way: read what the machine was told to do, not what the developer claimed it does.
+
+Outside of RE, y4seen is a known **OSINT practitioner** and a capable **side coder** who builds custom tooling in Python and Node.js to automate and extend his research workflows.
+
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                                                                              │
-│   ALIAS      →  L . | #y4                                                   │
-│   HANDLE     →  y4seen                                                      │
-│   SITE       →  y4seen.lol                                                  │
-│   AGE        →  17 y                                                        │
-│   LOCATION   →  KSA / India                                                 │
+│   HANDLE     →  y4seen                                                       │
+│   ALIAS      →  L . | #y4                                                    │
+│   SITE       →  y4seen.lol                                                   │
+│   AGE        →  17 y                                                         │
+│   BASE       →  KSA / India  (Saudi Arabia / India)                         │
 │   OS         →  Kali Linux  ·  Windows                                      │
 │                                                                              │
-│   WHAT I DO  →  I reverse engineer desktop software and web applications.   │
-│              →  I find APIs, methods, and endpoints devs never documented.   │
-│              →  I read network traffic until the protocol has no secrets.    │
-│              →  I map how software talks — then I speak its language.        │
+│   KNOWN FOR  →  Decompiling compiled code across any language                │
+│              →  Extracting hardcoded payloads, tokens, and API calls         │
+│              →  Tracing how software calls its own internals                 │
+│              →  Finding undocumented API methods from binaries & traffic     │
+│              →  OSINT research and deep passive reconnaissance               │
+│              →  Writing custom tools in Python and Node.js                  │
 │                                                                              │
 │   "Why don't you give up?"                                                   │
 │   "Because if I do... Who's gonna fight for the others?"                    │
-│                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ⚙️ `REVERSE ENGINEERING`
+## ⚙️ `REVERSE ENGINEERING — CORE DISCIPLINE`
 
-> My primary discipline. I take software apart at the seams to understand what it actually does — not what the docs say it does.
-
-<br>
-
-**`› Desktop Application Analysis`**
-
-I analyze compiled desktop software statically and dynamically — tracing execution flow, identifying obfuscation layers, locating hardcoded logic, and reconstructing intent from disassembly. My goal is always a complete functional map: what the software does, what it hides, and how it communicates.
-
-```
-Static Analysis Pipeline:
-  [1] Load binary into Ghidra / x64dbg
-  [2] Identify entry points, key functions, crypto routines
-  [3] Rename symbols, annotate logic, rebuild data structures
-  [4] Trace API call chains to understand external communication
-  [5] Locate: hardcoded strings, keys, URLs, internal method names
-  [6] Document findings as a clean functional spec
-```
+> I take compiled code and read it like source. Language doesn't matter. Runtime doesn't matter. If it runs on a machine, I can understand it.
 
 <br>
 
-**`› Web Application & JavaScript Reverse Engineering`**
+**`› Decompiling Compiled Binaries — Any Language, Any Runtime`**
 
-Modern web apps hide enormous amounts of logic in minified, obfuscated JS bundles. I deobfuscate, reconstruct, and analyze client-side code to expose internal API contracts, auth logic, hidden parameters, and methods the frontend uses but never publicizes.
+My primary skill. I decompile compiled executables and bytecode back to readable logic — regardless of what language they were originally written in. .NET assemblies, Java bytecode, native C/C++ binaries, Electron apps, compiled Python — each has a path back to readable code, and I know all of them.
 
-```javascript
-// Deobfuscation approach — reconstruct readable logic from minified bundles
-// Step 1: beautify
-// prettier --write bundle.min.js
+```
+Language / Runtime → Decompilation Path:
 
-// Step 2: identify and rename mangled symbols by behavior
-// Before:
-const a = b(c, d, 0x1f4);
-// After tracing: 
-const token = generateHmac(secret, payload, 500);
-
-// Step 3: extract all internal API calls
-// grep -oP '(?<=fetch\(")[^"]+' bundle.js
-// grep -oP '(?<=axios\.(get|post|put)\(")[^"]+' bundle.js
-
-// Step 4: map auth header construction — find how tokens are built
-// look for: headers["Authorization"], X-Api-Key, X-Request-Signature
+  .NET (C#, VB)      →  dnSpy / ILSpy / dotPeek     → full C# source recovery
+  Java / Kotlin      →  jadx / Procyon / CFR          → Java class reconstruction
+  Python compiled    →  pycdc / uncompyle6 / decompile → .pyc → readable .py
+  Native (C / C++)   →  Ghidra / x64dbg / Binary Ninja → pseudocode + ASM
+  Electron / Node    →  asar extract → JS deobfuscation → full app logic
+  Lua bytecode       →  unluac / luadec               → readable Lua source
+  Any obfuscated JS  →  de4js / AST rewrite / manual  → reconstructed logic
 ```
 
 <br>
 
-**`› Protocol & Network Traffic Analysis`**
+**`› Extracting Hardcoded Values from Compiled Code`**
 
-I intercept and dissect network communication to understand how software actually talks — including encrypted traffic, custom binary protocols, and undocumented message formats. Wireshark and Burp are my primary lenses, scripting handles the rest.
-
-```
-Traffic Analysis Process:
-  [1] Capture  →  Wireshark full PCAP / Burp Suite proxy intercept
-  [2] Decrypt  →  HTTPS via custom CA, MITM for thick clients
-  [3] Identify →  Message framing: REST, WebSocket, binary, custom
-  [4] Parse    →  Decode payloads: JSON, protobuf, custom serialization
-  [5] Map      →  Build complete request/response schema per endpoint
-  [6] Replay   →  Forge raw requests to confirm understanding
-  [7] Script   →  Automate via Python or Node.js client
-```
+Developers compile secrets into their software thinking they're safe — API keys, tokens, internal URLs, method names, payload structures. I extract them. Static strings, encrypted constants, XOR-obfuscated values — it all surfaces under analysis.
 
 ```python
-# Automated request replayer — forge and test captured API calls
-import requests, json
+# Automated hardcoded value extractor from compiled binary
+import re, sys
 
-session = requests.Session()
-session.headers.update({
-    "Authorization": "Bearer <extracted_token>",
-    "X-Request-ID":  "<reconstructed_value>",
-    "Content-Type":  "application/json",
-})
+with open(sys.argv[1], "rb") as f:
+    data = f.read()
 
-# Replay a captured internal method call
-payload = {
-    "method": "internal.getAccountData",   # undocumented method
-    "params": { "userId": 1337 },
-    "id":     1
+# Extract printable strings (min length 6)
+strings = re.findall(rb'[\x20-\x7e]{6,}', data)
+
+# Filter for high-value targets
+targets = {
+    "urls":    [s for s in strings if b'http' in s or b'api.' in s],
+    "keys":    [s for s in strings if b'key' in s.lower() or b'token' in s.lower() or b'secret' in s.lower()],
+    "paths":   [s for s in strings if s.startswith(b'/') and len(s) > 4],
+    "methods": [s for s in strings if b'.' in s and s.isascii()],
 }
 
-r = session.post("https://target.com/api/rpc", json=payload)
-print(json.dumps(r.json(), indent=2))
+for category, findings in targets.items():
+    if findings:
+        print(f"\n[+] {category.upper()}:")
+        for f in findings:
+            print(f"    {f.decode(errors='replace')}")
+```
+
+<br>
+
+**`› Tracing Internal Call Chains`**
+
+I don't just find what a binary does — I trace *how* it does it. I follow the execution path from user action to network request: which function calls which, what gets passed, how payloads are built, where tokens are attached, and what the final outgoing communication looks like.
+
+```
+Call Chain Tracing Methodology:
+  [1] Identify entry point — user action, timer, event handler
+  [2] Follow call graph in Ghidra / dnSpy / jadx
+  [3] Locate the HTTP client or socket call (the exit point)
+  [4] Trace backwards — what built the request body?
+  [5] What built the headers? What signed the payload?
+  [6] What parameters came from hardcoded values vs. runtime state?
+  [7] Reconstruct: full request format, auth logic, payload schema
+  [8] Reproduce the exact call externally from a Python/Node script
+```
+
+<br>
+
+**`› Payload & API Structure Recovery`**
+
+After tracing the call chain, I reconstruct the full payload format — field names, types, required vs. optional parameters, encoding, signing — and document it as a clean API spec that never existed before.
+
+```python
+# Reconstructed API call from binary analysis — built from decompiled payload logic
+import requests, hashlib, hmac, time, json
+
+# All of this was recovered from the compiled binary:
+BASE_URL   = "https://internal.target.com"          # hardcoded in binary
+API_KEY    = "recovered_from_binary_constants"       # extracted from .rodata
+SECRET     = "reconstructed_from_decompiled_logic"   # recovered from crypto routine
+
+def sign_payload(body: dict) -> str:
+    raw = json.dumps(body, separators=(',', ':'))
+    return hmac.new(SECRET.encode(), raw.encode(), hashlib.sha256).hexdigest()
+
+def call_internal_method(method: str, params: dict):
+    body = {
+        "jsonrpc": "2.0",
+        "method":  method,       # method names recovered from string table
+        "params":  params,
+        "id":      1,
+        "ts":      int(time.time()),
+    }
+    headers = {
+        "X-Api-Key":   API_KEY,
+        "X-Signature": sign_payload(body),
+        "Content-Type": "application/json",
+    }
+    return requests.post(f"{BASE_URL}/rpc", json=body, headers=headers).json()
+
+# Call undocumented internal methods discovered through RE
+result = call_internal_method("user.getPrivateData", {"uid": 1337})
+print(json.dumps(result, indent=2))
 ```
 
 ---
 
 ## 🌐 `API METHOD DISCOVERY`
 
-> APIs always have more surface than they expose. My job is finding the rest.
+> Every application has a public API and a real API. I find the real one.
 
-This is my signature discipline. I locate and map undocumented API methods, hidden endpoints, and internal communication patterns that developers never intended to be public-facing.
-
-<br>
-
-**`› How I Find What's Not Documented`**
+I specialize in discovering undocumented API methods, hidden endpoints, and internal communication interfaces that developers never published. My approach combines static binary analysis, live traffic interception, and JS source reconstruction to build a complete map of what an application can actually do.
 
 ```
-Multi-Vector Discovery:
-  ├── JS Bundle Mining
-  │     Deobfuscate frontend bundles → extract all fetch/axios/XHR calls
-  │     Grep for route strings, method names, param keys, header names
+Discovery Vectors:
+  ├── Binary String Extraction
+  │     Scan compiled executables for embedded URL paths, method names,
+  │     parameter keys, and internal route strings
   │
-  ├── Traffic Capture
-  │     Proxy the live application through Burp Suite
-  │     Record every request made during normal usage flows
-  │     Identify undocumented parameters sent silently by the client
+  ├── Decompiled Source Mining
+  │     Recover HTTP client call sites from decompiled .NET / Java / JS
+  │     Extract: URL construction logic, header assembly, body serialization
   │
-  ├── Desktop Binary Analysis
-  │     Strings scan on executables → harvest embedded URL paths
-  │     Trace HTTP client calls in disassembly → map all call sites
-  │     Identify internal RPC method tables and enum values
+  ├── Live Traffic Interception
+  │     Proxy all application traffic through Burp Suite
+  │     Capture undocumented calls made during normal usage
+  │     Identify hidden parameters sent silently by the client
   │
-  ├── Version Diffing
-  │     Compare old vs. new client builds → find removed/added routes
-  │     Dead routes on servers often still respond with weaker auth
+  ├── Call Chain Reconstruction
+  │     Trace from UI event → internal function → HTTP client → wire
+  │     Understand exactly how each API method is invoked and why
   │
-  └── Swagger / OpenAPI Hunting
-        /api-docs  /swagger.json  /openapi.yaml  /v2/api-docs
-        Internal docs exposed on staging, CDN, or misconfigured routes
-```
-
-<br>
-
-**`› API Authentication Reverse Engineering`**
-
-I reconstruct exactly how authentication works — token generation, signing algorithms, session mechanics, and authorization chains — by reading the code and traffic rather than the docs.
-
-```python
-# Reconstruct a custom HMAC request signature from JS source
-import hmac, hashlib, time, json
-
-# Recovered from deobfuscated bundle:
-# signature = HMAC-SHA256(secret_key, method + ":" + timestamp + ":" + body_hash)
-
-def build_signature(secret: str, method: str, body: dict) -> dict:
-    ts        = str(int(time.time()))
-    body_str  = json.dumps(body, separators=(',', ':'))
-    body_hash = hashlib.sha256(body_str.encode()).hexdigest()
-    
-    message   = f"{method}:{ts}:{body_hash}"
-    sig       = hmac.new(secret.encode(), message.encode(), hashlib.sha256).hexdigest()
-    
-    return {
-        "X-Timestamp":  ts,
-        "X-Signature":  sig,
-        "Content-Type": "application/json",
-    }
-
-# Now we can call the undocumented endpoint directly
-headers = build_signature(RECOVERED_SECRET, "POST", payload)
-```
-
-<br>
-
-**`› WebSocket & RPC Method Discovery`**
-
-Many modern apps use WebSocket connections with internal RPC-style method dispatch. I intercept these streams, enumerate method names, and map the full call surface.
-
-```
-WS Analysis:
-  → Intercept WebSocket frames in Burp Suite
-  → Identify message envelope structure (JSON-RPC, custom, protobuf)
-  → Enumerate method names from JS source and live traffic
-  → Test undocumented methods directly via ws client
-  → Map parameter types per method by fuzzing and observing errors
-```
-
-```javascript
-// WebSocket method enumerator (Node.js)
-const WebSocket = require('ws');
-
-const METHODS = [
-  'user.getProfile', 'user.getPrivate', 'admin.listUsers',
-  'internal.getConfig', 'system.status', 'account.getBalance'
-  // harvested from deobfuscated JS bundle
-];
-
-const ws = new WebSocket('wss://target.com/ws', {
-  headers: { 'Authorization': `Bearer ${TOKEN}` }
-});
-
-ws.on('open', () => {
-  METHODS.forEach((method, i) => {
-    ws.send(JSON.stringify({ id: i, method, params: {} }));
-  });
-});
-
-ws.on('message', (data) => {
-  const res = JSON.parse(data);
-  if (!res.error) console.log(`[FOUND] ${METHODS[res.id]} -> `, res.result);
-});
+  └── Auth & Signing Reconstruction
+        Recover token generation, HMAC signing, and session logic
+        from decompiled crypto routines and header assembly code
 ```
 
 ---
 
 ## 🕵️ `OSINT`
 
-Passive intelligence gathering to map targets before active analysis begins.
+Deep passive intelligence gathering. I map targets thoroughly before any active analysis begins — infrastructure, identity, history, and exposure.
 
 ```
-My OSINT Stack:
-  ├── Subdomain Enumeration    amass · subfinder · dnsx · crt.sh
-  ├── Infrastructure Mapping   shodan · censys · fofa
-  ├── Historical Data          Wayback Machine · URLScan · CommonCrawl
-  ├── Identity Research        maigret · holehe · sherlock
-  └── Leak Intelligence        credential and source correlation
+OSINT Stack:
+  ├── Subdomain & DNS         amass · subfinder · dnsx · crt.sh
+  ├── Infrastructure          shodan · censys · fofa · bgp.he.net
+  ├── Historical Records      Wayback Machine · URLScan · CommonCrawl
+  ├── Identity & Accounts     maigret · holehe · sherlock
+  └── Leak Intelligence       breach correlation, credential mapping
 ```
+
+---
+
+## 💻 `SIDE CODER`
+
+I build the tools I need. When existing tooling doesn't fit the job, I write it — clean, purpose-built, and fast.
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0a0a0f?style=for-the-badge&logo=python&logoColor=00A8FF)
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=for-the-badge&logo=nodedotjs&logoColor=00A8FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=for-the-badge&logo=javascript&logoColor=00A8FF)
+![Bash](https://img.shields.io/badge/Bash-0a0a0f?style=for-the-badge&logo=gnubash&logoColor=00A8FF)
+
+</div>
+
+**What I build:** binary analysis scripts, API call reconstructors, payload forgers, OSINT automation pipelines, deobfuscation helpers, traffic parsers, and custom HTTP clients that speak protocols I reverse engineered.
 
 ---
 
@@ -272,32 +254,17 @@ My OSINT Stack:
 
 | Category | Tools |
 |:---|:---|
-| **Disassembly / RE** | Ghidra · x64dbg · dnSpy · Detect-It-Easy |
+| **.NET RE** | dnSpy · ILSpy · dotPeek · de4dot |
+| **Java / JVM RE** | jadx · Procyon · CFR · JD-GUI |
+| **Native Binary** | Ghidra · x64dbg · Binary Ninja · Detect-It-Easy |
+| **Python Bytecode** | pycdc · uncompyle6 |
+| **JS Deobfuscation** | de4js · AST Explorer · Prettier · Chrome DevTools |
 | **Traffic Analysis** | Burp Suite · Wireshark · mitmproxy · Fiddler |
-| **JS Analysis** | Prettier · AST Explorer · Chrome DevTools · de4js |
 | **OSINT** | amass · shodan · subfinder · maigret · holehe |
 | **Scripting** | Python 3 · Node.js · Bash |
-| **API Testing** | Burp Repeater · Postman · curl · custom scripts |
 | **Platforms** | Kali Linux · Windows |
 
 </div>
-
----
-
-## 💻 `STACK`
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-0a0a0f?style=for-the-badge&logo=python&logoColor=00A8FF)
-![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=for-the-badge&logo=nodedotjs&logoColor=00A8FF)
-![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=for-the-badge&logo=javascript&logoColor=00A8FF)
-![Bash](https://img.shields.io/badge/Bash-0a0a0f?style=for-the-badge&logo=gnubash&logoColor=00A8FF)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-0a0a0f?style=for-the-badge&logo=burpsuite&logoColor=00A8FF)
-![Wireshark](https://img.shields.io/badge/Wireshark-0a0a0f?style=for-the-badge&logo=wireshark&logoColor=00A8FF)
-
-</div>
-
-Python and Node.js for scripting and automation. Burp Suite for intercepting and replaying traffic. Wireshark for raw protocol analysis. Ghidra and x64dbg for binary work. Custom tooling when nothing off-the-shelf fits the job.
 
 ---
 
@@ -317,34 +284,36 @@ Python and Node.js for scripting and automation. Burp Suite for intercepting and
 
 ---
 
-## 🔭 `CURRENT FOCUS`
+## 🔭 `CURRENTLY`
 
 ```python
-current_work = [
-    "Desktop binary analysis — mapping undocumented internal method tables",
-    "JS deobfuscation tooling — automated bundle analysis pipeline",
-    "Protocol reconstruction — decoding custom binary message formats",
-    "API method enumeration — building systematic discovery methodology",
-]
-
-learning = [
-    "Advanced traffic analysis — encrypted protocol reconstruction",
-    "Assembly reading — faster static analysis without decompiler crutch",
-    "Automation — chaining RE steps into repeatable pipelines",
-]
+current = {
+    "working_on": [
+        "Tracing call chains in compiled desktop software",
+        "Recovering undocumented API methods from binaries",
+        "Building automated payload reconstructors in Python",
+        "OSINT pipeline for passive infrastructure mapping",
+    ],
+    "sharpening": [
+        "Deeper native binary analysis — x86/x64 assembly fluency",
+        "Deobfuscation techniques for advanced packing / protection schemes",
+        "Writing cleaner, faster automation tooling",
+    ],
+    "playing":   "Roblox",
+}
 ```
 
 ---
 
-## 📡 `CONTACT`
+## 📡 `REACH ME`
 
 <div align="center">
 
 [![Website](https://img.shields.io/badge/y4seen.lol-0a0a0f?style=for-the-badge&logo=firefoxbrowser&logoColor=00A8FF)](https://y4seen.lol)
 &nbsp;
-[![Discord](https://img.shields.io/badge/Discord-0a0a0f?style=for-the-badge&logo=discord&logoColor=00A8FF)](https://discord.com)
+[![Discord](https://img.shields.io/badge/y4seen.lol-0a0a0f?style=for-the-badge&logo=discord&logoColor=00A8FF)](https://discord.com/users/y4seen)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-0a0a0f?style=for-the-badge&logo=protonmail&logoColor=00A8FF)](mailto:contact@y4seen.lol)
+[![Email](https://img.shields.io/badge/y4seen@y4seen.lol-0a0a0f?style=for-the-badge&logo=protonmail&logoColor=00A8FF)](mailto:y4seen@y4seen.lol)
 
 </div>
 
@@ -361,6 +330,8 @@ learning = [
 SYSTEM SECURE. SESSION ACTIVE. ANALYSIS ONGOING.
 ```
 
-*Every API has hidden methods. Every binary has secrets. I find both.*
+*Every compiled binary tells a story. I just speak the language.*
+
+**y4seen · y4seen.lol · Reverse Engineer · OSINT · Developer · KSA / India**
 
 </div>
